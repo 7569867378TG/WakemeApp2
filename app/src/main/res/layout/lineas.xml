@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lineas_layout"
+    android:background="@drawable/fragment_background"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Linea"
+                android:paddingTop="2dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="@string/titleSeleccionaLinea"/>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"></FrameLayout>
+
+                <Spinner
+                    android:id="@+id/spinnerLines"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:entries="@array/lineas_array"
+
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgRuta"
+                android:layout_below="@+id/Linea"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/my_maps_rutas"
+                android:scaleType="fitXY"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgRuta"
+                android:id="@+id/Parada"
+                android:paddingTop="2dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="@string/titleSeleccionaParada"/>
+
+                <Spinner
+                    android:id="@+id/spinnerParadas"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:entries="@array/default_parada"
+                    android:clickable="false"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Parada"
+                android:id="@+id/agregarFavoritos"
+                android:paddingTop="2dp"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titleAnadirFavoritos"
+                    android:paddingRight="20dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BarraBotones"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/agregarFavoritos"
+                android:paddingTop="30dp"
+                android:weightSum="1">
+
+
+                <Button android:id="@+id/BtnGuardarCambios"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/softgreen"
+                    android:textColor="@color/white"
+                    android:text="@string/Aceptar"
+                    android:layout_weight="0.50" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <Button android:id="@+id/BtnCancelar"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/softgreen"
+                    android:textColor="@color/white"
+                    android:text="@string/Cancelar"
+                    android:layout_weight="0.50" />
+
+            </LinearLayout>
+
+        <ToggleButton android:id="@+id/BtnPersonalizado"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:textOff=""
+            android:textOn=""
+            android:background="@drawable/toggle_style"
+            android:checked="false"
+            android:layout_above="@+id/BarraBotones"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+

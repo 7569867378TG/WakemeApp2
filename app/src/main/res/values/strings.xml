@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WakemeApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Aceptar">Aceptar</string>
+    <string name="Cancelar">Cancelar</string>
+
+
+
+    <!-- Lista de titulos de navegacion-->
+    <string-array name="nav_options">
+        <item>WakemeApp</item>
+        <item>Lineas</item>
+        <item>Alarma</item>
+        <item>Favoritos</item>
+        <item>Informacion</item>
+
+    </string-array>
+
+    <!-- Lista de titulos de navegacion-->
+    <array name="navigation_iconos">
+        <item>@drawable/ic_action_view_as_grid</item>
+        <item>@drawable/ic_action_copy</item>
+        <item>@drawable/ic_action_alarms</item>
+        <item>@drawable/ic_action_important</item>
+        <item>@drawable/ic_action_labels</item>
+
+    </array>
+
+    <string name="titleSeleccionaAlarma">Selecciona Alarma</string>
+    <string name="titleSeleccionaDistancia">Distancia</string>
+    <string name="titleSeleccionaLinea">Línea</string>
+    <string name="titleSeleccionaParada">Estación de destino</string>
+    <string name="titleAnadirFavoritos">Agregar a Favoritos</string>
+
+
+
+    <string name="inputSeleccionaDistancia">Introduce la distancia (en km)</string>
+    <string name="inputSeleccionaAlarma">Elige una canción</string>
+    <string name="inputSeleccionaParada">Escribe nombre de la parada</string>
+
+
+    <string-array name="lineas_array">
+        <item>Selecciona Línea</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+     </string-array>
+    <string-array name="default_parada"><item>No ha seleccionado línea</item>
+    </string-array>
+    <string-array name="linea1">
+        <item>Parada 1A</item>
+        <item>Parada 2A</item>
+    </string-array>
+    <string-array name="linea2">
+        <item>Parada 1B</item>
+        <item>Parada 2B</item>
+    </string-array>
+    <string-array name="linea3">
+        <item>Parada 1C</item>
+        <item>Parada 2C</item>
+    </string-array>
+
+
+    <string name="dialogTitle">Salir</string>
+    <string name="dialogMessage">¿Desea salir de Wake Me App?</string>
+    <string name="yesDialog">Sí</string>
+    <string name="noDialog">No</string>
+
+</resources>

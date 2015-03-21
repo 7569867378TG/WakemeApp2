@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WakemeApp.iml" filepath="$PROJECT_DIR$/WakemeApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WakemeApp2.iml" filepath="$PROJECT_DIR$/WakemeApp2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WakemeAppVersion4.iml" filepath="$PROJECT_DIR$/WakemeAppVersion4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WakemeApp_versionPestanas.iml" filepath="$PROJECT_DIR$/WakemeApp_versionPestanas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,26 @@
+
+    <android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+ <FrameLayout
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"/>
+
+    <!-- Listview para el menu desplegable-->
+        <ListView
+            android:id="@+id/lista"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:divider="#04B4AE"
+            android:dividerHeight="4dp"
+            android:background="#FFFFFF"
+            android:textColor="#000000"/>
+
+   </android.support.v4.widget.DrawerLayout>
