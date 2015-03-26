@@ -1,10 +1,9 @@
-package com.example.bumclap.wakemeapp2;
+package com.example.grupo1.wakemeapp;
 
 /**
  * Created by Bumclap on 19/2/15.
  */
 import android.app.Activity;
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

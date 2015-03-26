@@ -1,7 +1,6 @@
-package com.example.bumclap.wakemeapp2;
+package com.example.grupo1.wakemeapp;
 
 import android.app.Fragment;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -10,10 +9,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.SeekBar;
-import android.widget.TextView;
 
 
 /**

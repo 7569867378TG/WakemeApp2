@@ -1,9 +1,8 @@
-package com.example.bumclap.wakemeapp2;
+package com.example.grupo1.wakemeapp;
 
 import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.DialogInterface;
 import android.content.res.TypedArray;
 import android.os.Bundle;

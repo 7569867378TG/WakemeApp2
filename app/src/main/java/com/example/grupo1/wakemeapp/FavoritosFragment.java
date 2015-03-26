@@ -1,4 +1,4 @@
-package com.example.bumclap.wakemeapp2;
+package com.example.grupo1.wakemeapp;
 
 import android.app.Fragment;
 import android.os.Bundle;

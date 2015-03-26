@@ -1,4 +1,4 @@
-package com.example.bumclap.wakemeapp2;
+package com.example.grupo1.wakemeapp;
 
 /**
  * Created by Bumclap on 18/2/15.

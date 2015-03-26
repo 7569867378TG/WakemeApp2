@@ -1,4 +1,4 @@
-package com.example.bumclap.wakemeapp2;
+package com.example.grupo1.wakemeapp;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -7,15 +7,17 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by PC on 12/03/2015.
+ * Created by Bumclap on 19/2/15.
  */
-public class InfoFragment extends Fragment {
-
-    public InfoFragment(){}
+//FRAGMENT PARA SECCION DE HOMEL
+public class HomeFragment extends Fragment{
+    public HomeFragment(){}
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState){
 
-        View rootView= inflater.inflate(R.layout.informacion, container, false);
+        View rootView= inflater.inflate(R.layout.home, container, false);
         return  rootView;
     }
+
+
 }

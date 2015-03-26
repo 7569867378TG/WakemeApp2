@@ -1,4 +1,4 @@
-package com.example.bumclap.wakemeapp2;
+package com.example.grupo1.wakemeapp;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -9,8 +9,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-
-import static com.example.bumclap.wakemeapp2.R.layout.support_simple_spinner_dropdown_item;
 
 /**
  * Created by Bumclap on 19/2/15.
